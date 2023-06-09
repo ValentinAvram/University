@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500);
+body{
+	background: #9aafc7;
+   	font-family: 'Roboto', sans-serif;
+}
+    
+.cont {  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.1fr 1.5fr 1.5fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . . . . . . ."
+    ". add add add . mod mod mod . cancelEsp cancelEsp cancelEsp ."
+    ". . . addSes addSes addSes . cancel cancel cancel . . ."
+    ". . . . . . . . . . . . .";
+}
+
+.add { grid-area: add; }
+
+.mod { grid-area: mod; }
+
+.cancelEsp { grid-area: cancelEsp; }
+
+.addSes { grid-area: addSes; }
+
+.cancel { grid-area: cancel; }
+
+
+   div.add, div.mod, div.cancelEsp, div.addSes, div.cancel {
+   height: 95%;
+   display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+    margin:0;
+   padding-top: 0;
+}
+.container p{
+  font-size: 1.4em;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding:0;
+
+}
+.foto
+{
+	transform: scale(0.7);
+ 	transition: transform .2s; /* Animation */
+}    
+.foto:hover
+{
+transform: scale(.9);
+}

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500);
+
+	 * {
+		 box-sizing: border-box;
+		 margin: 0;
+		 padding: 0;
+		 font-weight: 300;
+	}
+	 body {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+		 font-weight: 300;
+	}
+	 body ::-webkit-input-placeholder {
+		 font-family: 'Roboto', sans-serif;
+		 color: white;
+		 font-weight: 300;
+	}
+
+	.bg {
+	  animation:slide 4s ease-in-out infinite alternate;
+	  background-image: linear-gradient(-60deg, rgba(235,156,116,1) 20%, rgba(246,194,168,1) 50%, rgba(143,175,212,1) 50%, rgba(76,147,230,1) 82%);
+	  bottom:0;
+	  left:-50%;
+	  opacity:.5;
+	  position:fixed;
+	  right:-50%;
+	  top:0;
+	  z-index:-1;
+	}
+	
+	.bg2 {
+	  animation-direction:alternate-reverse;
+	  animation-duration:6s;
+	}
+	
+	.bg3 {
+	  animation-duration:8s;
+	}
+	
+ .container {
+	 vertical-align: center;
+     color: #fdfdfd;
+	 max-width: 600px;
+	 margin: 0 auto;
+	 padding: 10% 0;
+	 position: abslute;
+     top:50%;
+     right: 0;
+     left: 0;
+	 text-align: center;
+	 font-size: 150%;
+}
+ .container h1 {
+   color: #fdfdfd;
+	 font-size: 300%;
+	 transition-duration: 1s;
+	 transition-timing-function: ease-in-put;
+	 font-weight: 220;
+}
+.container h2{
+     color: #fdfdfd;
+	font-size: 120%;
+	 transition-duration: 1s;
+	 transition-timing-function: ease-in-put;
+	 font-weight: 220;
+}
+ form {
+	 padding: 20px 0;
+	 position: relative;
+	 z-index: 2;
+}
+ form input:not(.radio) {
+	 display: block;
+	 appearance: none;
+	 outline: 0;
+	 border: 1px solid rgba(255,255,255,0.4);
+	 background-color: rgba(255,255,255,0.2);
+	 width: 70%;
+	 border-radius: 3px;
+	 padding: 10px 15px;
+	 margin: 0 auto 10px auto;
+	 text-align: center;
+	 font-size: 100%;
+	 color: white;
+	 transition-duration: 0.25s;
+	 font-weight: 320;
+}
+ form input:hover {
+	 background-color: rgba(255,255,255,0.4);
+}
+ form input:focus:not(.radio) {
+	 background-color: white;
+	 width: 300px;
+	 color: #859c74;
+}
+ form button, button {
+	 appearance: none;
+	 outline: 0;
+	 background-color: white;
+	 border: 0;
+	 padding: 10px 15px;
+	 color: #859c74; 
+	 border-radius: 3px;
+	 width: 25%;
+	 cursor: pointer;
+	 font-size: 90%;
+	 transition-duration: 0.25s;
+}
+ form button:hover, button:hover {
+	 background-color: #f5f7f9;
+}
+
+	@keyframes slide {
+			  0% {
+			    transform:translateX(-25%);
+			  }
+			  100% {
+			    transform:translateX(25%);
+			  }
+			}
