@@ -1,0 +1,6 @@
+user|pass
+admin|admin
+nombre|contra
+victor|rojas
+nana|popopo
+A|A

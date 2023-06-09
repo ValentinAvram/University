@@ -1,0 +1,3 @@
+Gabriel Ionut Roncea,p02rorog@uco.es,1234,0
+Victor Rojas Munoz,i92romuv@uco.es,1234,0
+Teodor Gabriel Popescu,i92popot@uco.es,1234,0
