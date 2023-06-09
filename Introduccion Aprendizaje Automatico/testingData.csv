@@ -1,0 +1,6 @@
+iter,ModelName,Accuracy
+0,Underfitted,0.742
+0,modelo3,0.667
+0,modelo4,0.8642
+0,modeloVGG16,0.707
+0,modelResnet50,0.8084
