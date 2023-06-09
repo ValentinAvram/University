@@ -1,0 +1,14 @@
+!! Programa que realiza una ordenacion burbuja
+
+<< Uso: Ordenar un vector. 
+Devuelve el vector ordenado 
+Este código no deberia tener errores! >>
+
+
+Para i desde 0 hasta n-1 hacer
+	Para j desde 0 hasta n-1-i hacer
+            Si A de J > A de J+1 entonces
+                intercambiar A de J con A de J+1
+
+    Fin Para
+Fin Algoritmo
